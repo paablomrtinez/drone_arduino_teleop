@@ -1,4 +1,4 @@
-# Teleoperación Hector Quadrorotor simulado en Gazebo 
+# Teleoperación Hector Quadrotor simulado en Gazebo 
 
 Se ha llevado a cabo la teleoperación de un dron simulado en Gazebo a partir de los datos de una IMU y un Joystick procesados con Arduino. 
 
@@ -28,7 +28,7 @@ Simulación básica con dron en un mundo vacío:
 
 	$ roslaunch hector_quadrotor_gazebo quadrotor_empty_world.launch
 	
-Para lanzar la simulación de otros entornos se pueden utilizar las demos que contiene el paquete del hector quadrorotor:
+Para lanzar la simulación de otros entornos se pueden utilizar las demos que contiene el paquete del hector quadrotor:
 
 	$ roslaunch hector_quadrotor_demo outdoor_flight_gazebo.launch
 
