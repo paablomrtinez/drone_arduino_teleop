@@ -2,16 +2,22 @@
 
 ## Índice
 1. [Índice](#índice)
-2. [Conexión Arduino](#conexión-arduino)
+2. [Arduino](#conexión-arduino)
 3. [Requerimientos previos](#requerimientos-previos)
 4. [Lanzamiento de la simulación](#lanzamiento-de-la-simulación )
 5. [Lanzamiento de la teleoperación](#lanzamiento-de-la-teleoperación)
 
-## Conexión Arduino
+## Arduino
+
+Se ha hecho uso de la siguiente IMU que se muestra en la imagen. Contiene un acelerómetro y un giroscopio internos, de los que se obtienen los datos representativos. 
 
 ![MPU-6050 GY-521](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/IMU.jpeg)
 
+Para realizar el conexionado con la placa Arduino Uno utilizada, se puede seguir el siguiente esquema. Requiere de alimentación y conexión de sus canales `SCL`  y `SDA` a entradas analógicas.  
+
 ![Cableado para la conexión entre la IMU y la placa Arduino UNO](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/conexion_IMU_Arduino.jpeg)
+
+También se ha hecho uso de un Joystick, su conexión con la placa es similar a la de la IMU. Requiere de alimentación y una referencia GND, sus dos salidas `VRx` y `VRy` se conectan a entradas analógicas del Arduino, mientras que su salida `SW` representa el pulsador que incorpora y ha de conectarse a una entrada digital. 
 
 ![Joystick](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/joystick.jpeg)
 
@@ -42,6 +48,8 @@ Simulación básica con dron en un mundo vacío:
 Para lanzar la simulación de otros entornos se pueden utilizar las demos que contiene el paquete del hector quadrotor:
 
 	$ roslaunch hector_quadrotor_demo outdoor_flight_gazebo.launch
+	
+![Mundo exterior Gazebo](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/Outdoor_gazebo.png)
 
 ## Lanzamiento de la teleoperación 
 
