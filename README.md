@@ -45,12 +45,16 @@ Simulación básica con dron en un mundo vacío:
 
 	$ roslaunch hector_quadrotor_gazebo quadrotor_empty_world.launch
 	
+![Mundo vacio Gazebo](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/Empty.png)	
+	
 Para lanzar la simulación de otros entornos se pueden utilizar las demos que contiene el paquete del hector quadrotor:
 
 	$ roslaunch hector_quadrotor_demo outdoor_flight_gazebo.launch
 	
 ![Mundo exterior Gazebo](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/Outdoor_gazebo.png)
 
+	$ roslaunch hector_quadrotor_demo indoor_slam_gazebo.launch 
+	
 ![Mundo interior Gazebo](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/Indoor_gazebo.png)
 
 ## Lanzamiento de la teleoperación 
