@@ -4,6 +4,12 @@ Se ha llevado a cabo la teleoperación de un dron simulado en Gazebo a partir de
 
 ## Conexión Arduino
 
+![MPU-6050 GY-521](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/IMU.jpeg)
+
+![Cableado para la conexión entre la IMU y la placa Arduino UNO](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/conexion_IMU_Arduino.jpeg)
+
+![Joystick](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/joystick.jpeg)
+
 ## Requerimientos previos 
 
 Creación de un espacio de trabajo donde se alberguen los paquetes correspondientes al dron y a la teleoperación
