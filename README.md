@@ -1,6 +1,11 @@
 # Teleoperación Hector Quadrotor simulado en Gazebo 
 
-Se ha llevado a cabo la teleoperación de un dron simulado en Gazebo a partir de los datos de una IMU y un Joystick procesados con Arduino. 
+## Índice
+1. [Índice](#índice)
+2. [Conexión Arduino](#conexión-arduino)
+3. [Requerimientos previos](#requerimientos-previos)
+4. [Lanzamiento de la simulación](#lanzamiento-de-la-simulación )
+5. [Lanzamiento de la teleoperación](#lanzamiento-de-la-teleoperación)
 
 ## Conexión Arduino
 
@@ -28,7 +33,7 @@ IMPORTANTE: Siempre que se abra un terminal y se trabaje en 'catkin_drone':
 
 	$ source devel/setup.bash
   
-## Lanzamiento de la simulación del dron
+## Lanzamiento de la simulación 
 
 Simulación básica con dron en un mundo vacío:
 
@@ -38,7 +43,7 @@ Para lanzar la simulación de otros entornos se pueden utilizar las demos que co
 
 	$ roslaunch hector_quadrotor_demo outdoor_flight_gazebo.launch
 
-## Lanzamiento del nodo de teleoperación 
+## Lanzamiento de la teleoperación 
 
 Para la teleoperación con la IMU y el Joystick se ha de abrir previamente la comunicación serie por el puerto en el que se encuentre la placa con el programa ejecutándose en ella. El monitor Serie de este debe mantenerse cerrado: 
 
