@@ -51,13 +51,15 @@ Para lanzar la simulación de otros entornos se pueden utilizar las demos que co
 	
 ![Mundo exterior Gazebo](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/Outdoor_gazebo.png)
 
+![Mundo interior Gazebo](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/Indoor_gazebo.png)
+
 ## Lanzamiento de la teleoperación 
 
 Para la teleoperación con la IMU y el Joystick se ha de abrir previamente la comunicación serie por el puerto en el que se encuentre la placa con el programa ejecutándose en ella. El monitor Serie de este debe mantenerse cerrado: 
 
 	$ rosrun rosserial_python serial_node.py /dev/ttyACM0
 
-Para lanzar el nodo de teleoperación con la IMU, dentro de 'catkin_drone':
+Para lanzar el nodo de teleoperación con la IMU, dentro de *catkin_drone*:
 
 	$ rosrun imu_teleop_drone IMU_teleop_drone.py 
   
