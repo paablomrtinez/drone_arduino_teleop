@@ -19,8 +19,6 @@ Para realizar el conexionado con la placa Arduino Uno utilizada, se puede seguir
 
 También se ha hecho uso de un Joystick, su conexión con la placa es similar a la de la IMU. Requiere de alimentación y una referencia GND, sus dos salidas `VRx` y `VRy` se conectan a entradas analógicas del Arduino, mientras que su salida `SW` representa el pulsador que incorpora y ha de conectarse a una entrada digital. 
 
-![Joystick](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/joystick.jpeg)
-
 ![Conexion Joystick](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/conexiones_joy.png)
 
 ## Requerimientos previos 
