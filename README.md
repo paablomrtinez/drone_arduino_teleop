@@ -25,7 +25,7 @@ También se ha hecho uso de un Joystick, su conexión con la placa es similar a 
 
 Creación de un espacio de trabajo donde se alberguen los paquetes correspondientes al dron y a la teleoperación
 
-  $ mkdir -p catkin_drone/src
+  	$ mkdir -p catkin_drone/src
   
 Dentro del workspace creado, seguir el siguiente tutorial con el fin de instalar los requerimientos para la simulación del dron:
 
