@@ -6,7 +6,7 @@
 /*  JOYSTICK INPUTS  */
 const int pinLED = 13;
 const int pinJoyX = A3;
-//const int pinJoyY = A4;
+//const int pinJoyY = A2;
 const int pinJoyButton = 9;
 int joyX=0, joyY=0; 
 bool joyButton = false;
