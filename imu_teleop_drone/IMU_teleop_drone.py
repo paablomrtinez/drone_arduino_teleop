@@ -11,7 +11,6 @@ from geometry_msgs.msg import Twist
 
 # Topics a través de los que se recibe o publica información
 imu_topic = '/imu'
-#velocity_topic = '/mobile_base/commands/velocity'   # real
 velocity_topic = '/cmd_vel'                         # simulación
 
 # Inicialización de variables
