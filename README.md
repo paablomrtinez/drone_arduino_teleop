@@ -1,4 +1,4 @@
-# Teleoperación Hector Quadrotor simulado en Gazebo 
+# Teleoperación Hector Quadrotor simulado en Gazebo con ROS Noetic
 
 ## Índice
 1. [Índice](#índice)
