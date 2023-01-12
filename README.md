@@ -1,5 +1,7 @@
 # Teleoperación Hector Quadrotor simulado en Gazebo con ROS Noetic
 
+![Demo Simulación](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/Exploracion.gif)
+
 ## Índice
 1. [Índice](#índice)
 2. [Arduino](#conexión-arduino)
