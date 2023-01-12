@@ -21,6 +21,8 @@ También se ha hecho uso de un Joystick, su conexión con la placa es similar a 
 
 ![Joystick](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/joystick.jpeg)
 
+![Conexion Joystick](https://github.com/paablomrtinez/drone_arduino_teleop/blob/main/Assets/conexiones_joy.png)
+
 ## Requerimientos previos 
 
 Creación de un espacio de trabajo donde se alberguen los paquetes correspondientes al dron y a la teleoperación
