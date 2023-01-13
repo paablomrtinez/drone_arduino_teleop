@@ -6,7 +6,7 @@
 1. [Índice](#índice)
 2. [Arduino](#arduino)
 3. [Requerimientos previos](#requerimientos-previos)
-4. [Lanzamiento de la simulación](#lanzamiento-de-la-simulación )
+4. [Lanzamiento de la simulación](#lanzamiento-de-la-simulación)
 5. [Lanzamiento de la teleoperación](#lanzamiento-de-la-teleoperación)
 
 ## Arduino
